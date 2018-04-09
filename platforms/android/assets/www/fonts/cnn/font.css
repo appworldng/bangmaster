@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'CNN';
+  src: url('CNNSansDisplayW04-Thin.woff') format('woff'),
+       url('CNNSansDisplayW04-Thin.ttf') format('truetype'),
+       url('CNNSansDisplayW04-Thin.svg#CNNSansDisplayW04-Thin') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('cnnsans-thin.eot');
+  src: url('cnnsans-thin.woff2') format('woff2'),
+       url('cnnsans-thin.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('CNNSansDisplayW04-Light.woff') format('woff'),
+       url('CNNSansDisplayW04-Light.ttf') format('truetype'),
+       url('CNNSansDisplayW04-Light.svg#CNNSansDisplayW04-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('cnnsans-light.eot');
+  src: url('cnnsans-light.woff2') format('woff2'),
+       url('cnnsans-light.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('CNNSansDisplayW04-Regular.woff') format('woff'),
+       url('CNNSansDisplayW04-Regular.ttf') format('truetype'),
+       url('CNNSansDisplayW04-Regular.svg#CNNSansDisplayW04-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('cnnsans-regular.eot');
+  src: url('cnnsans-regular.woff2') format('woff2'),
+       url('cnnsans-regular.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('CNNSansDisplayW04-Bold.woff') format('woff'),
+       url('CNNSansDisplayW04-Bold.ttf') format('truetype'),
+       url('CNNSansDisplayW04-Bold.svg#CNNSansDisplayW04-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('cnnsans-bold.eot');
+  src: url('cnnsans-bold.woff2') format('woff2'),
+       url('cnnsans-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}

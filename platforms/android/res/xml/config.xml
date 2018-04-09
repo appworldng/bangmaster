@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.appworldng.bangmaster" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="RecentsControl">
+        <param name="android-package" value="com.stokesmcnutt.cordova.recentscontrol.RecentsControl" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <name>Bangmaster</name>
+    <description>
+        A simple/basic drum loops app for live performance and recording.
+    </description>
+    <author email="developers@appworldng.com" href="http://appworldng.com">
+        AppWorld Technologies
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="cdvfile://*" />
+    <allow-navigation href="cdvfile://*" />
+    <allow-intent href="cdvfile://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-intent href="market:*" />
+    <splash density="land-hdpi" src="res/screen.png" />
+    <splash density="land-ldpi" src="res/screen.png" />
+    <splash density="land-mdpi" src="res/screen.png" />
+    <splash density="land-xhdpi" src="res/screen.png" />
+    <splash density="port-hdpi" src="res/screen.png" />
+    <splash density="port-ldpi" src="res/screen.png" />
+    <splash density="port-mdpi" src="res/screen.png" />
+    <splash density="port-xhdpi" src="res/screen.png" />
+    <icon density="ldpi" src="res/icon.png" />
+    <icon density="mdpi" src="res/icon.png" />
+    <icon density="hdpi" src="res/icon.png" />
+    <icon density="xhdpi" src="res/icon.png" />
+    <icon density="xxhdpi" src="res/icon.png" />
+    <icon density="xxxhdpi" src="res/icon.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="RecentsBackgroundColor" value="#2B2D42" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#2B2D42" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>

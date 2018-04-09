@@ -1,0 +1,62 @@
+{
+  "name": "cordova-plugin-recentscontrol",
+  "version": "1.1.0",
+  "description": "Set the Recents title bar color and label in Android 5.0+",
+  "cordova": {
+    "id": "com.stokesmcnutt.cordova.recentscontrol",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smcpjames/cordova-plugin-recentscontrol.git"
+  },
+  "keywords": [
+    "android",
+    "recents",
+    "color",
+    "label",
+    "description",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.7.1"
+    }
+  ],
+  "author": {
+    "name": "James M. Joyce, Stokes, McNutt & Partners, LLC"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smcpjames/cordova-plugin-recentscontrol/issues"
+  },
+  "homepage": "https://github.com/smcpjames/cordova-plugin-recentscontrol#readme",
+  "gitHead": "200cd4137dac42f03604217c3f64503f6cbc154a",
+  "_id": "cordova-plugin-recentscontrol@1.1.0",
+  "scripts": {},
+  "_shasum": "046af4d85f06eb139bb0a6d7418f17e6ad250e9c",
+  "_from": "cordova-plugin-recentscontrol@latest",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "smcpjames",
+    "email": "james@stokesmcnutt.com"
+  },
+  "dist": {
+    "shasum": "046af4d85f06eb139bb0a6d7418f17e6ad250e9c",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-recentscontrol/-/cordova-plugin-recentscontrol-1.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "smcpjames",
+      "email": "james@stokesmcnutt.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-recentscontrol/-/cordova-plugin-recentscontrol-1.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

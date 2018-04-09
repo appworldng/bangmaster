@@ -1,0 +1,71 @@
+<section ng-include="'templates/navigation.html'"></section>
+
+<section class="ios-body-lowered ios-section text-center">
+    <div class="container">
+        <div class="theme-text-sm" data-effect="fadeInUp 0ms" viewport-checker>
+            Load a sample of yours by entering a name and tempo/speed...
+        </div>
+        <br/><br/>
+        <div data-effect="fadeInUp 300ms" viewport-checker>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="form-group has-feedback">
+                        <input type="text" class="form-control theme-bang-fields" placeholder="Name"/>
+                        <i class="fa fa-music form-control-feedback" style="line-height: 28px;"></i>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="form-group has-feedback">
+                        <input type="text" class="form-control theme-bang-fields" placeholder="Speed"/>
+                        <i class="fa fa-refresh form-control-feedback" style="line-height: 28px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div data-effect="fadeInUp 600ms" viewport-checker>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group has-feedback">
+                        <input type="file" name="file" id="file" class="inputfile" />
+                        <label for="file">Pick Sample</label>
+                        <i class="fa fa-file form-control-feedback" style="line-height: 0; margin-top: -10px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/><br/>
+        <div data-effect="fadeInUp 900ms" viewport-checker>
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <div class="theme-btn">
+                        <div class="theme-btn-knob">
+                            <div class="fullscreen">
+                                <div class="fullscreen-child">
+                                    <i class="fa fa-cloud" ng-click="fn_sample()" style="font-size: 250% !important;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="premium" ng-show="animate" class="theme-dialog-box animate-show animate-hide text-center">
+    <div class="fullscreen">
+        <div class="fullscreen-child" ng-click="fn_exit()">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <div class="theme-dialog-message">
+                            <p class="theme-text-md">Go Premium</p>
+                            <p>Unfortunately, you can't access this feature of yours except you're using the premium version...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

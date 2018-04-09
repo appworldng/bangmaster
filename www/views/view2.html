@@ -1,0 +1,12 @@
+<section ng-include="'templates/navigation.html'"></section>
+
+<section class="ios-body-lowered">
+    <ul class="ios-collection theme-collection">
+        <li ng-repeat="beat in beats">
+            <a href="#" class="theme-anchor" data-position="{{$index}}" data-name="{{beat.name}}" data-speed="{{beat.speed}}" data-wav="{{beat.wav}}" ng-click="fn_anchor($event)">
+                <div class="ios-collection-name">{{beat.name}}</div>
+                <div class="ios-collection-summary theme-anchor-summary"><i class="fa fa-music theme-spacer-right"></i>Tempo: {{beat.speed}}.0 bpm</div>
+            </a>
+        </li>
+    </ul>
+</section>

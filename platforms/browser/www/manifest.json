@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Bangmaster",
+  "short_name": "Bangmaster",
+  "version": "com.appworldng.bangmaster",
+  "description": "A simple/basic drum loops app for live performance and recording.",
+  "author": "AppWorld Technologies",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#2B2D42"
+}

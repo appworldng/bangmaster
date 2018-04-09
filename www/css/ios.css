@@ -1,0 +1,155 @@
+/* FRAMEWORK CUSTOMIZATIONS */
+
+.fullscreen {
+	width: 100%; height: 100%; 
+	display: table; 
+}
+
+.fullscreen > .fullscreen-child {
+	width: 100%; height: 100%; 
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+/* GENERIC CUSTOMIZATIONS */
+
+html, body {
+	width: 100%; height: 100%;
+}
+
+body {
+	padding: 0; margin: 0;
+	font-family: CNN, Arial;
+}
+
+section {
+	position: relative;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/* ANIMATE CUSTOMIZATIONS */
+
+.transparent {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+/* IOS CUSTOMIZATIONS */
+
+.ios-section {
+    padding: 3em 0;
+}
+
+.ios-header {
+    z-index: 1000;
+    position: fixed !important;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+.ios-footer {
+    z-index: 1000;
+    position: fixed !important;
+    bottom: 0; left: 0;
+    width: 100%;
+}
+
+.ios-body {
+    position: relative;
+    top: 49px;
+}
+
+.ios-body-lowered {
+    position: relative !important;
+    top: 111px !important;
+}
+
+.ios-navbar {
+    text-align: center;
+}
+
+.ios-nav {
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.ios-nav > li > a {
+    display: block;
+    padding: 20px 0;
+}
+
+.ios-navcol-1 > li {
+    float: left;
+    width: 100%;
+}
+
+.ios-navcol-2 > li {
+    float: left;
+    width: 50%;
+}
+
+.ios-navcol-3 > li {
+    float: left;
+    width: 33.33%;
+}
+
+.ios-navcol-4 > li {
+    float: left;
+    width: 25%;
+}
+
+.ios-navcol-5 > li {
+    float: left;
+    width: 20%;
+}
+
+.ios-titlebar {
+    font-size: 14px;
+    padding: 15px 15px;
+}
+
+.ios-titlename {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.ios-titlelink {
+    float: right;
+}
+
+.ios-pagebar {
+    font-size: 16px;
+    padding: 20px 15px;
+}
+
+.ios-pagename {
+    text-align: center;
+}
+
+.ios-nav-prev {
+    float: left;
+}
+
+.ios-collection {
+    margin: 0 !important; 
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.ios-collection > li > a {
+    padding: 15px;
+    display: block;
+}
+
+.ios-collection-name {
+    font-size: 16px;
+}
+
+.ios-collection-summary {
+    font-size: 14px;
+}

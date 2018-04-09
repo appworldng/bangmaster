@@ -1,0 +1,20 @@
+<section class="ios-header">
+    <!--App Titlebar-->
+    <div class="ios-titlebar theme-header">
+        <input type="search" class="form-control theme-control" placeholder="Search for sample..." ng-model="isearchText" id="searchText" />
+        <div style="position: absolute; right: 15px; top: 15px; z-index: 2000;" class="ios-search-back" back>
+            <i class="ti-angle-left"></i>
+        </div>
+    </div>
+</section>
+
+<section class="ios-body" style="position: absolute; top: 50px; width: 100%;">
+    <ul class="ios-collection theme-collection">
+        <li class="animate-repeat" ng-repeat="beat in beats | filter:isearchText track by $index">
+            <a href="#" class="theme-anchor" data-position="{{beats.indexOf(beat)}}" data-name="{{beat.name}}" data-speed="{{beat.speed}}" data-wav="{{beat.wav}}" ng-click="fn_anchor($event)">
+                <div class="ios-collection-name">{{beat.name}}</div>
+                <div class="ios-collection-summary theme-anchor-summary"><i class="fa fa-music theme-spacer-right"></i>Tempo: {{beat.speed}}.0 bpm</div>
+            </a>
+        </li>
+    </ul>
+</section>
