@@ -1,7 +1,7 @@
 # bangmaster
 Bangmaster provides an easy and alternative way to help drummers perform their favourite tracks using loops. Ideal for concert, live, church, school, military performances and so on.
 
-# Advantages
+### Advantages
 1) Bangmaster provides an alternative and easy sample workstation, you don't have to carry your laptop anymore for backtrack performances. Save yourself the stress and also protect your laptop against theft during transit.
 
 2) Not all keyboards have options for rhythm selections (synthesizers, grand pianos). Bangmaster provides a quick drum machine, just select a favourite sample of yours and start playing along with it.
@@ -10,7 +10,7 @@ Bangmaster provides an easy and alternative way to help drummers perform their f
 
 4) With Bangmaster's inbuilt RecordBlade (premium version), you can now record your own samples and loop them over and over again. 
 
-# Features
+### Features
 1) Loop over 80 Presets (beats) in various genres.
 2) Samplerizer, load customized beats of your own.
 3) RecordBlade, record and loop voice notes.
